@@ -8,7 +8,7 @@ using System.Net;
 
 namespace SearchMoviesAPI.Controllers
 {
-   // [Authorize(Roles = UserRoles.User)]
+    [Authorize(Roles = UserRoles.User)]
     [Route("[controller]")]
     [ApiController]
     public class MovieController : ControllerBase
